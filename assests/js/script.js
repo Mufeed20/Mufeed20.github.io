@@ -41,19 +41,19 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Samandeep";
+        document.title = "Portfolio | Mufeed";
         $("#favicon").attr("href","assests/images/favicon.png");
     }
     else {
         document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","assests/images/favhand.png");
+        // $("#favicon").attr("href","assests/images/favhand.png");
     }
 });
 
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Data Science", "Full Stack Development", "Android development", "Database Management"],
+        strings: ["Data Science", "Full Stack Development", "Database Management"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
